@@ -461,7 +461,6 @@ table {
 }
 /* ==========================================================================Hero========================================================================== */
 .hero {
-	/* background: url('../img/header-bg.jpg') right bottom no-repeat; */
 	background-size: contain;
 	padding:110px 0 100px 0;
 	height:auto;
@@ -773,7 +772,8 @@ img.grayscale:hover {
 	display:block;
 	margin:0;
 	padding:0;
-	height:auto;
+	height:500px;
+	margin-bottom: 100px;
 }
 .overlay {
 	display:block;
@@ -1220,8 +1220,17 @@ ul.slides li {
 	    margin-bottom: 80px;
 	}
 	.effects .img {
-    	margin-bottom: 15px;
+    	margin-bottom: -15px;
 	}
+
+	.img{
+		text-align: center;
+	}
+
+	.DP{
+		display: none;
+	}
+
 	.show-menu .icon-list a {
 		display: block;
 		width: 100%;
